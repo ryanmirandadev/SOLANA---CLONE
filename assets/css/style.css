@@ -865,7 +865,7 @@
     @media (max-width:460px){
      
       *{
-        max-width:420px;
+        max-width:400px;
         
       }
       .container-nav {
@@ -913,6 +913,7 @@
     .carrossel-content{
       max-width: 300px;
       padding: 20px;
+      background-color: red;
       flex-direction: column;
      
     }
