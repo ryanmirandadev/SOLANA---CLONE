@@ -913,7 +913,6 @@
     .carrossel-content{
       max-width: 300px;
       padding: 20px;
-      background-color: red;
       flex-direction: column;
      
     }
