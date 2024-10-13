@@ -865,7 +865,7 @@
     @media (max-width:560px){
      
       *{
-        max-width: 420px;
+        max-width: 390px;
       }
       .container-nav {
         display: none;
