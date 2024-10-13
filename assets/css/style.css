@@ -910,17 +910,13 @@
     }
 
     .carrossel-content{
-      max-width: 350px;
+      max-width: 330px;
       padding: 20px;
       flex-direction: column;
      
     }
     .text-carrossel{
       margin: auto;
-    }
-
-    .text-carrossel>h4{
-      
     }
 
     .container-principal-data{
