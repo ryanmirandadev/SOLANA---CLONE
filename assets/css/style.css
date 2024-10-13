@@ -3,7 +3,7 @@
     box-sizing: border-box;
     background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 99vw;
+    
   }
 
   .logo{
@@ -863,6 +863,10 @@
     }
 
     @media (max-width:480px){
+
+      *{
+        max-width: 96vw;;
+      }
       .container-nav {
         display: none;
         
