@@ -710,6 +710,7 @@
     #F087FF 0%,
     #6E1FCE 55%,
     #6E1FCE 100%);
+    animation: slide-in-left 1s ease-out;
   }
 
   .footer{
@@ -1081,3 +1082,14 @@
       gap: 25px;
     }
     }
+
+    @keyframes slide-in-left {
+      from {
+          transform: translateX(-100%); /* Começa fora da tela, à esquerda */
+          opacity: 0; /* Invisível no início */
+      }
+      to {
+          transform: translateX(0); /* Termina na posição original */
+          opacity: 1; /* Totalmente visível no final */
+      }
+  }
