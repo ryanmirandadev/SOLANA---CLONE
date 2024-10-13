@@ -865,7 +865,8 @@
     @media (max-width:560px){
      
       *{
-        max-width: 360px;
+        max-width: 380px;
+        
       }
       .container-nav {
         display: none;
@@ -945,13 +946,6 @@
       flex-direction: column;
     } 
 
-    .card1{
-      transform: translateX(40px);
-    }
-    .card3{
-      transform: translateX(40px);
-    }
-
     .principal-studies{
       margin-top: 1800px;
     }
@@ -1029,7 +1023,7 @@
     }
 
     .build-sponsors{
-      width:400px;
+      width:380px;
       gap:25px;
       justify-content: center;
       margin: auto;
@@ -1037,7 +1031,7 @@
     }
 
     .build-sponsors>img{
-      width: 80px;
+      width: 60px;
       
     }
 
